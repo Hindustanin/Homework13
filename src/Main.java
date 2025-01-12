@@ -4,7 +4,7 @@ public class Main {
         Author levTolstoy = new Author("Лев", "Толстой");
         Book warAndPeace = new Book("Война и мир", levTolstoy, 1867);
 
-        Author federDostoevsky = new Author("Фёдор1", "Достоевский");
+        Author federDostoevsky = new Author("Фёдор", "Достоевский");
         Book crimeAndPunishment = new Book("Преступление и наказание", federDostoevsky, 1866);
 
         System.out.println(warAndPeace);
